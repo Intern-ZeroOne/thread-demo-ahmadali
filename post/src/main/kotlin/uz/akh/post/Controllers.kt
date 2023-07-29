@@ -52,3 +52,11 @@ class PostController(private val service: PostService) {
         service.getAllBySubscriberId(pageable, userId)
     }
 }
+
+@RequestMapping("internal")
+class PostInternalController(private val service: PostService) {
+    @GetMapping("exists/{id}")
+    fun existById(@PathVariable id: Long): Boolean = service.existById(id)
+
+
+}

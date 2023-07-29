@@ -32,7 +32,7 @@ interface ViewService {
     @GetMapping("{id}")
     fun getUserById(@PathVariable id: Long): UserDto
 
-    @PostMapping("create/all")
+    @PostMapping("create")
     fun create(@RequestBody viewCreateDto: ViewCreateDto)
 }
 
@@ -49,6 +49,8 @@ interface PostService {
     fun create(dto: PostCreateDto)
     fun getById(id: Long): PostDto
     fun getAllBySubscriberId(pageable: Pageable, id: Long): Page<Post>
+
+    fun existById(id: Long): Boolean
 }
 
 @Service
@@ -98,4 +100,6 @@ class PostServiceImpl(
 
         return PageImpl(postList)
     }
+
+    override fun existById(id: Long) = repository.existsByIdAndDeletedFalse(id)
 }

@@ -25,8 +25,11 @@ class FeignErrorDecoder : ErrorDecoder {
     val mapper = ObjectMapper()
     override fun decode(methodKey: String?, response: Response?): Exception {
         response?.apply {
-            val message = (mapper.readValue(this.body().asInputStream(), BaseMessage::class.java))
-            return FeignErrorException(message.code, message.message)
+            if(status()==400)
+            {
+                val message = (mapper.readValue(this.body().asInputStream(), BaseMessage::class.java))
+                return FeignErrorException(message.code, message.message)
+            }
         }
         return GeneralApiException("Not handled")
     }

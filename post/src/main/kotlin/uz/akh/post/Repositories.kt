@@ -43,6 +43,8 @@ class BaseRepositoryImpl<T : BaseEntity>(
 }
 
 interface PostRepository : BaseRepository<Post> {
+
+    fun existsByIdAndDeletedFalse(id: Long):Boolean
     fun findAllByUserIdOrderByLikes(pageable: Pageable, userId: Long): Page<Post>
     fun findAllByUserIdOrderByViews(pageable: Pageable, userId: Long): Page<Post>
 }
