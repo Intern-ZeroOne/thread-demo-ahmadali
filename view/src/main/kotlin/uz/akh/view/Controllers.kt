@@ -43,8 +43,7 @@ class ExceptionHandlers(
 
 @RestController
 class ViewController(private val service: ViewService) {
-    @PostMapping("create")
-    fun create(@RequestBody dto: ViewDto) = service.create(dto)
+
 
     @GetMapping("{id}")
     fun getById(@PathVariable id: Long) = service.getById(id)
@@ -61,6 +60,9 @@ class ViewInternalController(private val service: ViewService) {
     @PostMapping("exists")
     fun existsByUserIdAndPostId(@RequestBody viewDto: ViewDto): Boolean =
         service.existByUserIdAndPostId(viewDto.userId, viewDto.postId)
+
+    @PostMapping("create")
+    fun create(@RequestBody dto: ViewDto) = service.create(dto)
 
 
 }

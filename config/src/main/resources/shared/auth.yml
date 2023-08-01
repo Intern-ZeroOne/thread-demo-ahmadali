@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: auth_db
+      username: admin
+server:
+  port: 8081

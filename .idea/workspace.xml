@@ -5,13 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31ce8232-cd64-4d28-a053-9320243fe182" name="Changes" comment="[add entity structure]&#10;[add errors,ports{.yml} file]&#10;[add sql indexing]">
+      <change afterPath="$PROJECT_DIR$/auth/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/kotlin/uz/akh/auth/Components.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/kotlin/uz/akh/auth/Configs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/kotlin/uz/akh/auth/Controllers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/kotlin/uz/akh/auth/DataLoader.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/kotlin/uz/akh/auth/Dtos.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/kotlin/uz/akh/auth/Entities.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/kotlin/uz/akh/auth/Enums.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/kotlin/uz/akh/auth/Extensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/kotlin/uz/akh/auth/Repositories.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/kotlin/uz/akh/auth/Services.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/kotlin/uz/akh/auth/Utils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/resources/shared/auth.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/93b4e100-2d2b-4303-b435-5865475f9ca2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/93b4e100-2d2b-4303-b435-5865475f9ca2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Components.kt" beforeDir="false" afterPath="$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Components.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/shared/discovery.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/shared/discovery.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/shared/gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/shared/gateway.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/shared/post.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/shared/post.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Controllers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Controllers.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Repositories.kt" beforeDir="false" afterPath="$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Repositories.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Services.kt" beforeDir="false" afterPath="$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Services.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription/src/main/kotlin/uz/akh/subscription/Components.kt" beforeDir="false" afterPath="$PROJECT_DIR$/subscription/src/main/kotlin/uz/akh/subscription/Components.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/src/main/kotlin/uz/akh/view/Components.kt" beforeDir="false" afterPath="$PROJECT_DIR$/view/src/main/kotlin/uz/akh/view/Components.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/src/main/kotlin/uz/akh/view/Controllers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/view/src/main/kotlin/uz/akh/view/Controllers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/src/main/kotlin/uz/akh/view/Services.kt" beforeDir="false" afterPath="$PROJECT_DIR$/view/src/main/kotlin/uz/akh/view/Services.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +40,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/../demo-api-gateway/subscription">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/auth">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/config">
@@ -102,47 +125,47 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Internship/thread-demo/view/src/main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15820312&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;fc38d98b2834595b237ec9ea9da6aa8e&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Internship/thread-demo/auth/src/main/kotlin/uz/akh/auth",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15820312",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "show.run.dashboard.notification": "false",
+    "spring.configuration.checksum": "f2e52204becf50a20cdc1a64916ab88e"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Internship\thread-demo\auth\src\main\kotlin\uz\akh\auth" />
+      <recent name="C:\Internship\thread-demo\auth" />
       <recent name="C:\Internship\thread-demo\view\src\main" />
       <recent name="C:\Internship\thread-demo\view\src\main\resources" />
       <recent name="C:\Internship\thread-demo\subscription\src\main\resources" />
-      <recent name="C:\Internship\thread-demo\view\src\main\kotlin\uz\akh\view" />
-      <recent name="C:\Internship\thread-demo\view" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Internship\thread-demo\user\src\main\sql" />
@@ -163,6 +186,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="uz.akh.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ua.akh.config.ConfigApplication" />
@@ -177,14 +207,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="email.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="uz.akh.email.EmailApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="gateway.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gateway.GatewayApplication" />
       <method v="2">
@@ -198,41 +222,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="student.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.student.StudentApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SubscriptionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="subscription.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="uz.akh.subscription.SubscriptionApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="UserApplication " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="user.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="uz.akh.user.UserApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="user.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="uz.akh.user.UserApplicationKt" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ViewApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="view.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="uz.akh.view.ViewApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.DiscoveryApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.PostApplication" />
+      <item itemvalue="Spring Boot.SubscriptionApplication" />
+      <item itemvalue="Spring Boot.UserApplication " />
+      <item itemvalue="Spring Boot.ViewApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringGeneralSettings">
@@ -257,7 +280,13 @@
       <workItem from="1690555879536" duration="7150000" />
       <workItem from="1690563972574" duration="15351000" />
       <workItem from="1690618757127" duration="3279000" />
-      <workItem from="1690623305741" duration="2976000" />
+      <workItem from="1690623305741" duration="4020000" />
+      <workItem from="1690641161589" duration="816000" />
+      <workItem from="1690661334844" duration="145000" />
+      <workItem from="1690811311568" duration="3689000" />
+      <workItem from="1690828439642" duration="1548000" />
+      <workItem from="1690830021847" duration="2499000" />
+      <workItem from="1690874765740" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="[add entity structure]&#10;[add errors,ports{.yml} file]">
       <created>1690578343496</created>
@@ -273,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690620439181</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[add entity structure]&#10;[add errors,ports{.yml} file]&#10;[add sql indexing]">
+      <created>1690626536354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690626536355</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,23 +336,43 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/view/src/main/kotlin/uz/akh/view/Services.kt</url>
-          <line>44</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/view/src/main/kotlin/uz/akh/view/Services.kt</url>
           <line>45</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/view/src/main/kotlin/uz/akh/view/Services.kt</url>
-          <line>46</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/view/src/main/kotlin/uz/akh/view/Services.kt</url>
-          <line>47</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Components.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Components.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Services.kt</url>
+          <line>86</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Services.kt</url>
+          <line>87</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Services.kt</url>
+          <line>88</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Services.kt</url>
+          <line>89</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/post/src/main/kotlin/uz/akh/post/Services.kt</url>
+          <line>90</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

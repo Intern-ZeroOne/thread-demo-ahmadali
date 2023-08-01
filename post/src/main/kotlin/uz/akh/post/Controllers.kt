@@ -1,6 +1,7 @@
 package uz.akh.post
 
 import org.springframework.context.support.ResourceBundleMessageSource
+import org.springframework.data.domain.Page
 import org.springframework.data.domain.PageRequest
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
@@ -47,9 +48,9 @@ class PostController(private val service: PostService) {
         @RequestParam(defaultValue = "0") page: Int,
         @RequestParam(defaultValue = "5") size: Int,
         @PathVariable userId: Long
-    ) {
+    ) : Page<Post> {
         val pageable: PageRequest = PageRequest.of(page, size)
-        service.getAllBySubscriberId(pageable, userId)
+        return service.getAllBySubscriberId(pageable, userId)
     }
 }
 

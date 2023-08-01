@@ -32,7 +32,7 @@ interface ViewService {
     @GetMapping("{id}")
     fun getUserById(@PathVariable id: Long): UserDto
 
-    @PostMapping("create")
+    @PostMapping("internal/create")
     fun create(@RequestBody viewCreateDto: ViewCreateDto)
 }
 

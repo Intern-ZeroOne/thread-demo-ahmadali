@@ -41,10 +41,8 @@ class ViewServiceImpl(
     private val postService: PostService
 ) : ViewService {
     @Transactional
+    //method for internal controller
     override fun create(dto: ViewDto) {
-        if (!userService.existById(dto.userId)) throw UserNotFoundException()
-        if (!postService.existById(dto.postId)) throw PostNotFoundException()
-        if (!repository.existsByUserIdAndPostId(dto.userId, dto.postId)) throw ViewAlreadyExistsException()
         repository.save(dto.toEntity())
     }
 
